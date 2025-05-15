@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html,
+body {
+  min-width: 100%;
+  background-color: darkgray;
+  font-family: "Sriracha", "Cursive";
+}
+
+/* Header */
+
+header {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header > h1 {
+  padding-top: 50px;
+  /* text-transform: uppercase; -> Para jogar as letras pra maiúsculo */
+  font-variant: small-caps;
+  font-family: "Passion One";
+  font-size: 10vw;
+}
+
+header > p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  padding-bottom: 50px;
+  font-size: 2.4vw;
+}
+
+header a {
+  color: wheat;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.12, 0.67, 0.41, 0.88);
+}
+
+header a:hover {
+  text-decoration: underline;
+  font-size: 2.7vw;
+  transition: all 0.3s cubic-bezier(0.12, 0.67, 0.41, 0.88);
+}
+
+/* Main */
+
+section {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  line-height: 1.8em;
+  padding-left: 30px;
+  font-size: 3vw;
+}
+
+.normal {
+  background-color: white;
+}
+
+.imagem {
+  background-color: #2e2e2e;
+  box-shadow: 0px 0px 105px -5px rgba(0, 0, 0, 0.75) inset;
+  -webkit-box-shadow: 0px 0px 105px -5px rgba(0, 0, 0, 0.75) inset;
+  -moz-box-shadow: 0px 0px 105px -5px rgba(0, 0, 0, 0.75) inset;
+  background-attachment: fixed;
+}
+
+.imagem > p {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+#section-img1 {
+  background-image: url("pacote-d012-2/imagens/background001.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+#section-img2 {
+  background-image: url("pacote-d012-2/imagens/background002.jpg");
+  background-position: center center;
+}
+
+/* Footer */
+footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.2vw;
+}
+
+footer a {
+  color: wheat;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.12, 0.67, 0.41, 0.88);
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  font-size: 2.7vw;
+  transition: all 0.3s cubic-bezier(0.12, 0.67, 0.41, 0.88);
+}
